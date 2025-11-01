@@ -58,7 +58,7 @@
 
                             <!-- Dropdown Items -->
                             <ul class="py-1 text-sm text-gray-700">
-                                <li>
+                                {{-- <li>
                                     <a href="{{ route('profile.edit') }}"
                                         class="flex items-center px-4 py-2 hover:bg-gray-100 text-gray-800">
                                         <svg class="w-5 h-5 mr-2 text-gray-500" xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@
                                         </svg>
                                         Profil
                                     </a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <form method="POST" action="{{ route('logout') }}">
                                         @csrf
